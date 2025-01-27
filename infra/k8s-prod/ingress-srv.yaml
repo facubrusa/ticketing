@@ -7,7 +7,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: ticketing.dev
+    - host: www.fbrusa-ticketing-app.duckdns.org
       http:
         paths:
           - path: /api/payments/?(.*)
